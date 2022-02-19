@@ -1,0 +1,58 @@
+h1 { 
+    font-family: Tahoma, sans-serif;
+    font-size: 125%;
+}
+a { 
+    color: #aaa; 
+    text-decoration: none; 
+}
+#calendario { 
+    font: normal 11px Tahoma, Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    padding-bottom: 1.5em; 
+    text-align: center; 
+}
+table.calendario { 
+    font-size: 100%; 
+    text-align: center; 
+    border: 1px solid #ddd; 
+    margin: 0.5em; 
+    float: left; 
+}
+table.calendario caption { 
+    color: #033799; 
+    font-weight: bold; 
+    padding: 0.2em; 
+}
+table.calendario thead th { 
+    color: #033799; 
+    font-weight: normal; 
+    padding: 0.1em; 
+}
+table.calendario td { 
+    padding-top: 0.2em; 
+    padding: 0.1em 0.3em 0.1em 0.3em; 
+}
+table.calendario td.domingo { 
+    color: #f00; 
+}
+table.calendario td.iniciocurso, table.calendario td.fincurso { 
+    background-color: #708090; 
+    color: #fff; 
+}
+table.calendario td.inicioclases, table.calendario td.finclases { 
+    background-color: #6495ed; 
+    color: #fff; 
+}
+table.calendario td.festivo { 
+    background-color: #f00; 
+    color: #fff; 
+}
+table.calendario td.nolectivo { 
+    background-color: orange; 
+    color: #fff; 
+}
+br.clear {
+    clear: left;
+}
